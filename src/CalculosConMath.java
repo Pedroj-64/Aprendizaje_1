@@ -7,7 +7,7 @@ public class CalculosConMath {
         int exponente=2;
         String mujer;
 
-        mujer="Es el resultado de la potencia de base: " + base + " y con exponente " + exponente;
+        mujer="Es el resultado de la potencia de base: " + base + " y con exponente: " + exponente;
         
 
         int resultado=(int)Math.pow(base, exponente);
