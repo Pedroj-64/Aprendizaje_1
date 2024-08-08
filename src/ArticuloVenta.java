@@ -15,13 +15,13 @@ public class ArticuloVenta {
 
         System.out.println("Ingrese el precio del producto a continuacion: ");
 
-        var precio=(int) entrada.nextInt();
+        var precio=entrada.nextInt();
 
         System.out.println("Ingrese cantidad del producto a  comprar a continuacion: ");
 
-        var cantidad= (int ) entrada.nextInt();
+        var cantidad= entrada.nextInt();
 
-        var solucion= (int) precio*cantidad;
+        var solucion= precio *cantidad;
 
         System.out.println("EL precio total del producto " + nombre + " es: " + solucion);
 
