@@ -8,6 +8,11 @@ public class CalculosConMath {
         String mujer;
 
         mujer="Es el resultado de la potencia de base: " + base + " y con exponente: " + exponente;
+
+        int b=5,c=4;
+        double a=25;
+
+        var resultado2=  ((a+b)/c);
         
 
         int resultado=(int)Math.pow(base, exponente);

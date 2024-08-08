@@ -1,6 +1,6 @@
 /*
  * recordemos los operadores basicos:
- * ¡Claro! Aquí tienes una lista de los operadores básicos en Java junto con una breve explicación para cada uno:
+ * 
 
 1. **Operadores Aritméticos:**
    - `+`: Suma dos valores.
