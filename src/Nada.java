@@ -6,6 +6,12 @@ public class Nada {
         mostrarMensaje(mensaje);
         
     }
+    /**
+     * metodo para imprimir a su papa
+     * @param num
+     * @param resultado
+     * @return
+     */
     public static String imprimir(int num,int resultado){
         String mensaje=("El resultado del " + num + " y su factorial es: " + resultado );
         return mensaje;
