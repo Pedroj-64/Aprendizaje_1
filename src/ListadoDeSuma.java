@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumeritosListados {
+public class ListadoDeSuma {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
