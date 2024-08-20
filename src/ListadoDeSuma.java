@@ -16,6 +16,7 @@ public class ListadoDeSuma {
      */
     public static Scanner entrada() {
         Scanner entrada = new Scanner(System.in);
+
         return entrada;
     }
     /**
@@ -38,7 +39,7 @@ public class ListadoDeSuma {
     public static int[] entradaArreglos(Scanner entrada, int espacio) {
         int[] arreglo = new int[espacio];
         for (int i = 0; i < espacio; i++) {
-            System.out.println("introduzca el elemento del arreglo numero " + i + " : ");
+            System.out.println("introduzca el elemento del arreglo numero " + (i+1) + " : ");
             arreglo[i] = entrada.nextInt();
         }
         return arreglo;
