@@ -1,7 +1,7 @@
 // Definición de la interfaz Animal
 interface Animal {
     // Método abstracto
-    void hacerSonido();
+    void hacerSonido(); // No necesita 'abstract', es implícito en interfaces
 
     // Método por defecto
     default void dormir() {
